@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("../public/bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(14, 165, 233, 0.6); /* sky-500 */
+  border-radius: 10px;
+}
+
